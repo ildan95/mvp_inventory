@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e68eab6cdde509249a10875b146b1aa2, type: 3}
+    totalSpriteSurfaceArea: 196608
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 64adfb5148332654ab2439879fc00eec, type: 3}
+  - {fileID: 21300000, guid: 322cfa727da33104fb4512c48fef84fb, type: 3}
+  - {fileID: 21300000, guid: 1b8b818479f3dfe408b7c06a19c73926, type: 3}
+  - {fileID: 21300000, guid: 51da3515b1aae7c4b99b66fd02da6ef5, type: 3}
+  - {fileID: 21300000, guid: dddac7459e0afba4d8d54607f3e4e363, type: 3}
+  - {fileID: 21300000, guid: 328667b6fe6729e45ad3a7812e46f8db, type: 3}
+  - {fileID: 21300000, guid: 639795b776abaea42a8d39d9a8c3ca3b, type: 3}
+  - {fileID: 21300000, guid: 6d611df7a21380747806f81f28eb098e, type: 3}
+  - {fileID: 21300000, guid: e06a8f98fe9c6bb4b8ee0b90cbd0b29e, type: 3}
+  - {fileID: 21300000, guid: 0a175b09fe3033b43822dbb878952c95, type: 3}
+  - {fileID: 21300000, guid: dc5a885ae9758914c8f8e3f085ef827a, type: 3}
+  - {fileID: 21300000, guid: 39e07cdef4bfd744f81cbff612e44845, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_birch_board
+  - icon_birch_wood
+  - icon_berry_drink
+  - icon_berry_poison
+  - icon_altar_mid
+  - icon_altar_left
+  - icon_barrel_empty
+  - icon_barrel_honey
+  - icon_bell
+  - icon_beer
+  - icon_altar_right
+  - icon_berry
+  m_Tag: Icons
+  m_IsVariant: 0
