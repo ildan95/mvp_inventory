@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 using Views.ViewData;
 
 namespace Views
@@ -12,6 +13,7 @@ namespace Views
         
         [SerializeField] private InventoryView _sourceInventoryView; 
         [SerializeField] private InventoryView _destinationInventoryView;
+        [SerializeField] private Button _transferBtn;
 
         public event Action<int, int> SlotClicked;
         public event Action<int> TransferInvoked;
@@ -39,6 +41,8 @@ namespace Views
 
         public void UpdateSlot(SlotViewData slot, int inventoryIndex)
         {
+            _transferBtn.interactable = slot.IsSelected;
+            
             var inventoryView = inventoryIndex == SourceInventoryIndex ? _sourceInventoryView : _destinationInventoryView;
             inventoryView.UpdateSlot(slot);
         }
